@@ -1,7 +1,6 @@
 import time
-import logging
 from flask import Flask, request, jsonify
-from schemas.request import PredictionRequest, PredictionResponse
+from schemas.request import PredictionRequest
 from utils.logger import setup_logger
 from YaGPT2 import search_information, generate_answer
 
@@ -40,6 +39,7 @@ def home():
         "data": {}
     })
 
+
 @app.route("/api/request", methods=["POST"])
 def predict():
     try:
@@ -62,6 +62,5 @@ def predict():
         return jsonify({"detail": "Internal server error"}), 500
 
 
-
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=10000, debug=True)
+    app.run(host="0.0.0.0", port=8080, debug=True)
