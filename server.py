@@ -32,6 +32,13 @@ def log_response(response):
     )
     return response
 
+@app.route('/')
+def home():
+    return jsonify({
+        "message": "Welcome to ITMovator API",
+        "status": "success",
+        "data": {}
+    })
 
 @app.route("/api/request", methods=["POST"])
 def predict():
