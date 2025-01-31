@@ -3,15 +3,15 @@ from langchain_community.tools.tavily_search import TavilySearchResults
 from langchain_community.utilities.tavily_search import TavilySearchAPIWrapper
 from langchain_core.messages import HumanMessage
 import json
-from config import *
 from utils import logger
+import os
 
 # Initialize YandexGPT LLM
 model_uri = "gpt://b1gm60ickcj6d4fhev3m/yandexgpt"
-llm = ChatYandexGPT(api_key=YAGPT_API_KEY, model_uri=model_uri, temperature=0.3)
+llm = ChatYandexGPT(api_key=os.environ.get('YAGPT_API_KEY'), model_uri=model_uri, temperature=0.3)
 
 # Initialize Tavily Search Tool
-tavilySearchAPIWrapper = TavilySearchAPIWrapper(tavily_api_key=TAVILY_API_KEY)
+tavilySearchAPIWrapper = TavilySearchAPIWrapper(tavily_api_key=os.environ.get('TAVILY_API_KEY'))
 tavily_search = TavilySearchResults(api_wrapper=tavilySearchAPIWrapper)
 
 
