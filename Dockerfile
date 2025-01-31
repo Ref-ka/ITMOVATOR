@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 8080
 
 # Run the application
-CMD ["python", "server.py"]
+CMD ["gunicorn -w 4 -k gthread -b 0.0.0.0:10000 server:app --threads 20"]
