@@ -89,7 +89,7 @@ def generate_answer(question, search_results, query_id):
     ))])
 
     # Log the raw response for debugging
-    logger.error(f"Raw response from AI model: {response.content}")
+    logger.exception(f"Raw response from AI model: {response.content}")
 
     try:
         # Parse the response as JSON
