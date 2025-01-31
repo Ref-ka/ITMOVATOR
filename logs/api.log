@@ -1,0 +1,237 @@
+2025-01-31 15:40:10 | INFO | Incoming request: POST http://localhost:8000/api/request
+Request body: '{query:
+2025-01-31 15:58:50 | INFO | Incoming request: POST http://localhost:5000/api/request
+Request body: {"query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород", "id": 1}
+2025-01-31 15:58:50 | INFO | Incoming request: POST http://localhost:5000/api/request
+Request body: {"query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород", "id": 1}
+2025-01-31 15:58:50 | INFO | Processing prediction request with id: 1
+2025-01-31 15:58:50 | INFO | Processing prediction request with id: 1
+2025-01-31 15:58:50 | ERROR | Internal error processing request 1: 'PredictionRequest' object has no attribute 'question'
+2025-01-31 15:58:50 | ERROR | Internal error processing request 1: 'PredictionRequest' object has no attribute 'question'
+2025-01-31 15:58:50 | INFO | Request completed: POST http://localhost:5000/api/request
+Status: 500
+Response body: {
+  "detail": "Internal server error"
+}
+
+Duration: 0.002s
+2025-01-31 15:58:50 | INFO | Request completed: POST http://localhost:5000/api/request
+Status: 500
+Response body: {
+  "detail": "Internal server error"
+}
+
+Duration: 0.002s
+2025-01-31 16:01:29 | INFO | Incoming request: POST http://localhost:5000/api/request
+Request body: {"query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород", "id": 1}
+2025-01-31 16:01:29 | INFO | Incoming request: POST http://localhost:5000/api/request
+Request body: {"query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород", "id": 1}
+2025-01-31 16:01:29 | INFO | Processing prediction request with id: 1
+2025-01-31 16:01:29 | INFO | Processing prediction request with id: 1
+2025-01-31 16:01:38 | ERROR | Validation error for request 1: Invalid response format from AI agent
+2025-01-31 16:01:38 | ERROR | Validation error for request 1: Invalid response format from AI agent
+2025-01-31 16:01:38 | INFO | Request completed: POST http://localhost:5000/api/request
+Status: 400
+Response body: {
+  "detail": "Invalid response format from AI agent"
+}
+
+Duration: 8.987s
+2025-01-31 16:01:38 | INFO | Request completed: POST http://localhost:5000/api/request
+Status: 400
+Response body: {
+  "detail": "Invalid response format from AI agent"
+}
+
+Duration: 8.987s
+2025-01-31 16:09:13 | INFO | Incoming request: POST http://localhost:5000/api/request
+Request body: {"query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород", "id": 1}
+2025-01-31 16:09:13 | INFO | Incoming request: POST http://localhost:5000/api/request
+Request body: {"query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород", "id": 1}
+2025-01-31 16:09:13 | INFO | Processing prediction request with id: 1
+2025-01-31 16:09:13 | INFO | Processing prediction request with id: 1
+2025-01-31 16:09:22 | ERROR | Validation error for request 1: AI model returned invalid JSON
+2025-01-31 16:09:22 | ERROR | Validation error for request 1: AI model returned invalid JSON
+2025-01-31 16:09:22 | INFO | Request completed: POST http://localhost:5000/api/request
+Status: 400
+Response body: {
+  "detail": "AI model returned invalid JSON"
+}
+
+Duration: 9.111s
+2025-01-31 16:09:22 | INFO | Request completed: POST http://localhost:5000/api/request
+Status: 400
+Response body: {
+  "detail": "AI model returned invalid JSON"
+}
+
+Duration: 9.111s
+2025-01-31 16:12:38 | INFO | Incoming request: POST http://localhost:5000/api/request
+Request body: {"query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород", "id": 1}
+2025-01-31 16:12:38 | INFO | Incoming request: POST http://localhost:5000/api/request
+Request body: {"query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород", "id": 1}
+2025-01-31 16:12:38 | INFO | Processing prediction request with id: 1
+2025-01-31 16:12:38 | INFO | Processing prediction request with id: 1
+2025-01-31 16:12:48 | INFO | Successfully processed request 1
+2025-01-31 16:12:48 | INFO | Successfully processed request 1
+2025-01-31 16:12:48 | ERROR | Internal error processing request 1: Object of type HttpUrl is not JSON serializable
+2025-01-31 16:12:48 | ERROR | Internal error processing request 1: Object of type HttpUrl is not JSON serializable
+2025-01-31 16:12:48 | INFO | Request completed: POST http://localhost:5000/api/request
+Status: 500
+Response body: {
+  "detail": "Internal server error"
+}
+
+Duration: 9.803s
+2025-01-31 16:12:48 | INFO | Request completed: POST http://localhost:5000/api/request
+Status: 500
+Response body: {
+  "detail": "Internal server error"
+}
+
+Duration: 9.803s
+2025-01-31 16:13:23 | INFO | Incoming request: POST http://localhost:5000/api/request
+Request body: {"query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород", "id": 1}
+2025-01-31 16:13:23 | INFO | Incoming request: POST http://localhost:5000/api/request
+Request body: {"query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород", "id": 1}
+2025-01-31 16:13:23 | INFO | Processing prediction request with id: 1
+2025-01-31 16:13:23 | INFO | Processing prediction request with id: 1
+2025-01-31 16:13:32 | INFO | Successfully processed request 1
+2025-01-31 16:13:32 | INFO | Successfully processed request 1
+2025-01-31 16:13:32 | ERROR | Internal error processing request 1: Object of type HttpUrl is not JSON serializable
+2025-01-31 16:13:32 | ERROR | Internal error processing request 1: Object of type HttpUrl is not JSON serializable
+2025-01-31 16:13:32 | INFO | Request completed: POST http://localhost:5000/api/request
+Status: 500
+Response body: {
+  "detail": "Internal server error"
+}
+
+Duration: 8.838s
+2025-01-31 16:13:32 | INFO | Request completed: POST http://localhost:5000/api/request
+Status: 500
+Response body: {
+  "detail": "Internal server error"
+}
+
+Duration: 8.838s
+2025-01-31 16:15:05 | INFO | Incoming request: POST http://localhost:5000/api/request
+Request body: {"query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород", "id": 1}
+2025-01-31 16:15:05 | INFO | Processing prediction request with id: 1
+2025-01-31 16:15:14 | INFO | Successfully processed request 1
+2025-01-31 16:15:14 | ERROR | Internal error processing request 1: Object of type HttpUrl is not JSON serializable
+2025-01-31 16:15:14 | INFO | Request completed: POST http://localhost:5000/api/request
+Status: 500
+Response body: {
+  "detail": "Internal server error"
+}
+
+Duration: 8.752s
+2025-01-31 16:17:23 | INFO | Incoming request: POST http://localhost:5000/api/request
+Request body: {"query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород", "id": 1}
+2025-01-31 16:17:23 | INFO | Processing prediction request with id: 1
+2025-01-31 16:17:32 | INFO | Successfully processed request 1
+2025-01-31 16:17:32 | INFO | Request completed: POST http://localhost:5000/api/request
+Status: 200
+Response body: {
+  "answer": 2,
+  "id": 1,
+  "reasoning": "\u0413\u043b\u0430\u0432\u043d\u044b\u0439 \u043a\u043e\u0440\u043f\u0443\u0441 \u043a\u0430\u043c\u043f\u0443\u0441\u0430 \u0423\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u0430 \u0418\u0422\u041c\u041e \u043d\u0430\u0445\u043e\u0434\u0438\u0442\u0441\u044f \u0432 \u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433\u0435. \u042d\u0442\u043e \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0430\u0435\u0442\u0441\u044f \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0435\u0439 \u0438\u0437 \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u043d\u044b\u0445 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u043e\u0432.",
+  "sources": [
+    "https://realty.ria.ru/20230109/itmo-1843634496.html",
+    "https://itmo.ru/ru/page/89/1._osnovnye_svedeniya.htm"
+  ]
+}
+
+Duration: 8.984s
+2025-01-31 16:21:00 | INFO | Incoming request: POST http://localhost:5000/api/request
+Request body: {"query": "В каком году Университет ИТМО был включён в число Национальных исследовательских университетов России?\n1. 2007\n2. 2009\n3. 2011\n4. 2015", "id": 1}
+2025-01-31 16:21:00 | INFO | Processing prediction request with id: 1
+2025-01-31 16:21:05 | ERROR | Validation error for request 1: AI model returned invalid JSON
+2025-01-31 16:21:05 | INFO | Request completed: POST http://localhost:5000/api/request
+Status: 400
+Response body: {
+  "detail": "AI model returned invalid JSON"
+}
+
+Duration: 5.231s
+2025-01-31 16:22:30 | INFO | Incoming request: POST http://localhost:5000/api/request
+Request body: {"query": "В каком году Университет ИТМО был включён в число Национальных исследовательских университетов России?\n1. 2007\n2. 2009\n3. 2011\n4. 2015", "id": 1}
+2025-01-31 16:22:30 | INFO | Processing prediction request with id: 1
+2025-01-31 16:22:38 | INFO | Successfully processed request 1
+2025-01-31 16:22:38 | INFO | Request completed: POST http://localhost:5000/api/request
+Status: 200
+Response body: {
+  "answer": 2,
+  "id": 1,
+  "reasoning": "\u0423\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0418\u0422\u041c\u041e \u043f\u043e\u043b\u0443\u0447\u0438\u043b \u0441\u0442\u0430\u0442\u0443\u0441 \u043d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u043e\u0433\u043e \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u0430 \u0432 2009 \u0433\u043e\u0434\u0443.",
+  "sources": [
+    "https://nanojournal.ifmo.ru/university_itmo/",
+    "https://ru.wikipedia.org/wiki/%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%D0%98%D0%A2%D0%9C%D0%9E",
+    "https://en.wikipedia.org/wiki/ITMO_University"
+  ]
+}
+
+Duration: 8.041s
+2025-01-31 16:23:14 | INFO | Incoming request: POST http://localhost:5000/api/request
+Request body: {"query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities", "id": 1}
+2025-01-31 16:23:14 | INFO | Processing prediction request with id: 1
+2025-01-31 16:23:23 | INFO | Successfully processed request 1
+2025-01-31 16:23:23 | INFO | Request completed: POST http://localhost:5000/api/request
+Status: 200
+Response body: {
+  "answer": 3,
+  "id": 1,
+  "reasoning": "\u0421\u043e\u0433\u043b\u0430\u0441\u043d\u043e \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u043d\u044b\u043c \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0430\u043c, \u0418\u0422\u041c\u041e \u0432\u043f\u0435\u0440\u0432\u044b\u0435 \u0432\u043e\u0448\u0451\u043b \u0432 \u0442\u043e\u043f-400 \u043c\u0438\u0440\u043e\u0432\u044b\u0445 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u043e\u0432 \u0441\u043e\u0433\u043b\u0430\u0441\u043d\u043e \u0440\u0435\u0439\u0442\u0438\u043d\u0433\u0443 QS World University Rankings.",
+  "sources": [
+    "https://news.itmo.ru/en/news/10389/",
+    "https://news.itmo.ru/en/news/9494/",
+    "https://www.topuniversities.com/universities/itmo-university"
+  ]
+}
+
+Duration: 8.552s
+2025-01-31 16:33:21 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {"query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?\n1. ARWU (Shanghai Ranking)\n2. Times Higher Education (THE) World University Rankings\n3. QS World University Rankings\n4. U.S. News & World Report Best Global Universities", "id": 1}
+2025-01-31 16:33:21 | INFO | Processing prediction request with id: 1
+2025-01-31 16:33:29 | INFO | Successfully processed request 1
+2025-01-31 16:33:29 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {
+  "answer": 3,
+  "id": 1,
+  "reasoning": "\u0421\u043e\u0433\u043b\u0430\u0441\u043d\u043e \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u043d\u044b\u043c \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0430\u043c, \u0418\u0422\u041c\u041e \u0432\u043f\u0435\u0440\u0432\u044b\u0435 \u0432\u043e\u0448\u0451\u043b \u0432 \u0442\u043e\u043f-400 \u043c\u0438\u0440\u043e\u0432\u044b\u0445 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u043e\u0432 \u043f\u043e \u0432\u0435\u0440\u0441\u0438\u0438 QS World University Rankings.",
+  "sources": [
+    "https://news.itmo.ru/en/news/10389/",
+    "https://news.itmo.ru/en/university_live/ratings/news/9494/",
+    "https://www.topuniversities.com/universities/itmo-university"
+  ]
+}
+
+Duration: 8.298s
+2025-01-31 16:43:40 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {"query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?", "id": 1}
+2025-01-31 16:43:40 | INFO | Processing prediction request with id: 1
+2025-01-31 16:43:43 | ERROR | Validation error for request 1: 1 validation error for PredictionResponse
+answer
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/int_type
+2025-01-31 16:43:43 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {
+  "detail": "1 validation error for PredictionResponse\nanswer\n  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.10/v/int_type"
+}
+
+Duration: 3.331s
+2025-01-31 16:50:46 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {"query": "В каком рейтинге (по состоянию на 2021 год) ИТМО впервые вошёл в топ-400 мировых университетов?", "id": 1}
+2025-01-31 16:50:46 | INFO | Processing prediction request with id: 1
+2025-01-31 16:51:11 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {
+  "answer": null,
+  "id": 1,
+  "reasoning": "\u041d\u0435 \u0431\u044b\u043b\u043e \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u043e \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u043e\u0432 \u043e\u0442\u0432\u0435\u0442\u0430",
+  "sources": []
+}
+
+Duration: 24.587s
