@@ -3,7 +3,6 @@ from langchain_community.tools.tavily_search import TavilySearchResults
 from langchain_community.utilities.tavily_search import TavilySearchAPIWrapper
 from langchain_core.messages import HumanMessage
 import json
-from utils import logger
 import os
 
 # Initialize YandexGPT LLM
@@ -89,7 +88,7 @@ def generate_answer(question, search_results, query_id):
     ))])
 
     # Log the raw response for debugging
-    logger.info(f"Raw response from AI model: {response.content}")
+    # logger.info(f"Raw response from AI model: {response.content}")
 
     try:
         # Parse the response as JSON
