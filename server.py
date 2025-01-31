@@ -32,7 +32,7 @@ def log_response(response):
     )
     return response
 
-@app.route('/')
+@app.route('/', metods=["GET"])
 def home():
     return jsonify({
         "message": "Welcome to ITMovator API",
