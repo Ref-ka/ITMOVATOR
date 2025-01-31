@@ -55,10 +55,10 @@ def predict():
         return jsonify(final_answer), 200
 
     except ValueError as e:
-        logger.error(f"Validation error for request {body.id}: {str(e)}")
+        logger.exception(f"Validation error for request {body.id}: {str(e)}")
         return jsonify({"detail": str(e)}), 400
     except Exception as e:
-        logger.error(f"Internal error processing request {body.id}: {str(e)}")
+        logger.exception(f"Internal error processing request {body.id}: {str(e)}")
         return jsonify({"detail": "Internal server error"}), 500
 
 
